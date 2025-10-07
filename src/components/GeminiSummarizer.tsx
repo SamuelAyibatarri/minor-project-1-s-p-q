@@ -17,7 +17,7 @@ interface BigFiveDataProps {
 }
 
 
-const GEMINI_API_KEY: string = "AIzaSyBcaP-RGpZEop1ymuf56yQ9-VfR8E6dUlM"; // ⚠️ Don't forget to change this before pushing to github
+const GEMINI_API_KEY: string = "YOUR-GEMINI-API-KEY-HERE"
 
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
